@@ -1,0 +1,46 @@
+
+
+/* ID selecor*/
+#item3 {
+    color: brown;
+}
+
+/*Pseudo class*/
+#item3:hover {
+    color: black;
+}
+
+/* Class selector*/
+.color1 {
+    color: aqua;
+}
+
+/* Attribute selector*/
+a[href="https://www.google.com"] {
+    background-color: blueviolet;
+}
+
+/*Combinator selectors*/
+
+/* all elements h1 and table*/
+h1,table {
+    color: blue;
+}
+
+/* descendant selecor and child selecor (toggle space and > selecor to see diff
+Descendant - To select only those anchor elements that are inside list element
+Child to select only child (not sub-child)*/
+ul > a {
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+
+
+/* 
+Selectors specificity (ierarchy)
+- inline
+- id
+- class 
+- type
+*/

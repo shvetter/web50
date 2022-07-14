@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search</title>
+    <link rel="stylesheet" href="advanced.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="refs">
+        <div class="main"><a href="index.html">Google Search</a></div>
+        <div class="img_ref"><a href="img.html">Image Search</a></div>
+      </div>
+      <img src="googlelogo.png" alt="logo" />
+    </div>
+    <div id="advLabel"><label>Advanced Search</label></div>
+    <div id="border"></div>
+    <div id="container">
+      <div class="findwith">
+        <span>Find pages with...</span>
+      </div>
+      <form class="frm" action="https://www.google.com/search">
+        <div class="line">
+          <div class="lbl">
+            <label class="txt">all these words:</label>
+          </div>
+          <div class="inpt">
+            <input class="field_input" type="text" name="as_q" />
+          </div>
+        </div>
+        <div class="line">
+          <div class="lbl">
+            <label class="txt">this exact word or phrase:</label>
+          </div>
+          <div class="inpt">
+            <input class="field_input" type="text" name="as_epq" />
+          </div>
+        </div>
+        <div class="line">
+          <div class="lbl">
+            <label class="txt">any of these words:</label>
+          </div>
+          <div class="inpt">
+            <input class="field_input" type="text" name="as_oq" />
+          </div>
+        </div>
+        <div class="line">
+          <div class="lbl">
+            <label class="txt">none of these words:</label>
+          </div>
+          <div class="inpt">
+            <input class="field_input" type="text" name="as_eq" />
+          </div>
+        </div>
+        <div class="line">
+          <div class="lbl">
+            <label class="txt" hidden></label>
+          </div>
+          <div class="sbm">
+            <input type="submit" value="Advanced search" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

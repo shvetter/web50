@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flexbox</title>
+    <style>
+      .test {
+        size: 100px;
+        font-size: 40px;
+        padding: 20px;
+        background-color: aqua;
+        margin: 10px;
+      }
+      /* We need to display it as flexbox. Means it will wrap all the screen */
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="test">Some text</div>
+      <div class="test">Some text</div>
+      <div class="test">Some text</div>
+      <div class="test">Some text</div>
+      <div class="test">Some text</div>
+      <div class="test">Some text</div>
+    </div>
+  </body>
+</html>
